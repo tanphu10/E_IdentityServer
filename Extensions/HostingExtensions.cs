@@ -11,8 +11,8 @@ internal static class HostingExtensions
 
         builder.Services.ConfigureCookiePolicy();
         builder.Services.ConfigureCors();
+        builder.Services.ConfigureIdentity(builder.Configuration);
         builder.Services.ConfigureIdentityServer(builder.Configuration);
-
 
         return builder.Build();
     }
@@ -30,9 +30,6 @@ internal static class HostingExtensions
         app.UseStaticFiles();
         app.UseCors("CorsPolicy");
         app.UseRouting();
-
-
-
         app.UseCookiePolicy();
         app.UseIdentityServer();
 

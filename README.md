@@ -9,6 +9,11 @@
 - run command: docker-compose -f docker-compose.yml up -d --remove-orphans --build
 - Run script: idp_stores.sql in DatabaseScripts/Store Procedures
 
+
+
+`add-migration InitialPersistedGrantMigration -c PersistedGrantDbContext -o Migration/s/IdentityServer/PersistedGrantDb`
+` add-migration InitialConfigurationMigration -c ConfigurationDbContext -o Migrations/IdentityServer/ConfigurationDb`
+
 ## Application URLs - PRODUCTION:
 
 ## Packages References

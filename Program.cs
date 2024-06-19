@@ -1,4 +1,5 @@
 ﻿using EMicroservice.IDP.Extensions;
+using EMicroservice.IDP.Persistence;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()
@@ -17,8 +18,8 @@ try
     var app = builder
         .ConfigureServices()
         .ConfigurePipeline();
-
-    app.Run();
+    SeedUserData.EnsureSeedData(builder.Configuration.GetConnectionString("IdentitySqlConnection"));
+    app.MigrateDatabase().Run();
 }
 catch (Exception ex)
 {
