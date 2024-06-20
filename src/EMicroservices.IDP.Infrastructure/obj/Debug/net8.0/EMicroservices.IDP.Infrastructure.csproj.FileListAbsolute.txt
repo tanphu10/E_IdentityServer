@@ -1,0 +1,13 @@
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\bin\Debug\net8.0\EMicroservices.IDP.Infrastructure.deps.json
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\bin\Debug\net8.0\EMicroservices.IDP.Infrastructure.dll
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\bin\Debug\net8.0\EMicroservices.IDP.Infrastructure.pdb
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.AssemblyInfo.cs
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.sourcelink.json
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.dll
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\refint\EMicroservices.IDP.Infrastructure.dll
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\EMicroservices.IDP.Infrastructure.pdb
+C:\Users\T14\Desktop\Asp-microservice\EMicroservice.IDP\src\EMicroservices.IDP.Infrastructure\obj\Debug\net8.0\ref\EMicroservices.IDP.Infrastructure.dll
