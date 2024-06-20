@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\common\\repositories\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\common\\repositories\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\common\\repositories\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\common\\repositories\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B66A9ED-CD19-4A3A-841E-B621466383BC}|EMicroservices.IDP.Presentation\\EMicroservices.IDP.Presentation.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.presentation\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B66A9ED-CD19-4A3A-841E-B621466383BC}|EMicroservices.IDP.Presentation\\EMicroservices.IDP.Presentation.csproj|solutionrelative:emicroservices.idp.presentation\\controllers\\permissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\entities\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\entities\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\entities\\modelbuilderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\repositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\repositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\entities\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\entities\\configuration\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\domains\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\domains\\repository\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\entities\\configuration\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\entities\\configuration\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\viewmodel\\permissionaddmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\viewmodel\\permissionaddmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\persistence\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\persistence\\identitycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\persistence\\seeduserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\persistence\\seeduserdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\pages\\account\\logout\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\pages\\account\\logout\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\pages\\account\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\pages\\account\\login\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\extensions\\identityprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74EB508A-A463-4EBF-A193-1C57DD3E1C24}|EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:emicroservices.idp\\extensions\\identityprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\domains\\repository\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\domains\\repository\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp.infrastructure\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA89E731-43ED-4D6A-9B4D-2924EA4E97ED}|EMicroservices.IDP.Infrastructure\\EMicroservices.IDP.Infrastructure.csproj|solutionrelative:emicroservices.idp.infrastructure\\exceptions\\entitynotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +67,170 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RepositoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
-              "RelativeDocumentMoniker": "EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
-              "RelativeToolTip": "EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAABYAAAA",
+              "Title": "PermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAYwDsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:11:06.345Z",
+              "WhenOpened": "2024-06-20T08:32:35.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IRepositoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\IRepositoryManager.cs",
-              "RelativeDocumentMoniker": "EMicroservices.IDP\\Common\\Repositories\\IRepositoryManager.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\IRepositoryManager.cs",
-              "RelativeToolTip": "EMicroservices.IDP\\Common\\Repositories\\IRepositoryManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAxAAAA",
+              "Title": "PermissionsController.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Presentation\\Controllers\\PermissionsController.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Presentation\\Controllers\\PermissionsController.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Presentation\\Controllers\\PermissionsController.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Presentation\\Controllers\\PermissionsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA1wCsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:10:53.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Permission.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\Permission.cs",
-              "RelativeDocumentMoniker": "EMicroservices.IDP\\Entities\\Permission.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\Permission.cs",
-              "RelativeToolTip": "EMicroservices.IDP\\Entities\\Permission.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwA0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:10:29.089Z",
+              "WhenOpened": "2024-06-20T06:37:41.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ModelBuilderExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\ModelBuilderExtensions.cs",
-              "RelativeDocumentMoniker": "EMicroservices.IDP\\Entities\\ModelBuilderExtensions.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\ModelBuilderExtensions.cs",
-              "RelativeToolTip": "EMicroservices.IDP\\Entities\\ModelBuilderExtensions.cs",
-              "ViewState": "AQIAAIUAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Title": "IPermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Repositories\\IPermissionRepository.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\Repositories\\IPermissionRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Repositories\\IPermissionRepository.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\Repositories\\IPermissionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:10:22.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoleConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\Configuration\\RoleConfiguration.cs",
-              "RelativeDocumentMoniker": "EMicroservices.IDP\\Entities\\Configuration\\RoleConfiguration.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\Configuration\\RoleConfiguration.cs",
-              "RelativeToolTip": "EMicroservices.IDP\\Entities\\Configuration\\RoleConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:10:18.101Z",
+              "WhenOpened": "2024-06-20T08:04:55.325Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PermissionConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\Configuration\\PermissionConfiguration.cs",
-              "RelativeDocumentMoniker": "EMicroservices.IDP\\Entities\\Configuration\\PermissionConfiguration.cs",
-              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Entities\\Configuration\\PermissionConfiguration.cs",
-              "RelativeToolTip": "EMicroservices.IDP\\Entities\\Configuration\\PermissionConfiguration.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Title": "PermissionAddModel.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\ViewModel\\PermissionAddModel.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\ViewModel\\PermissionAddModel.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\ViewModel\\PermissionAddModel.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\ViewModel\\PermissionAddModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T05:10:09.597Z",
+              "WhenOpened": "2024-06-20T07:56:23.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Pages\\Account\\Logout\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP\\Pages\\Account\\Logout\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Pages\\Account\\Logout\\Index.cshtml.cs",
+              "RelativeToolTip": "EMicroservices.IDP\\Pages\\Account\\Logout\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:42:11.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "EMicroservices.IDP\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:43:27.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IdentityContext.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Persistence\\IdentityContext.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\Persistence\\IdentityContext.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Persistence\\IdentityContext.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\Persistence\\IdentityContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:29:46.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Domains\\Repository\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\Domains\\Repository\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Domains\\Repository\\RepositoryBase.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\Domains\\Repository\\RepositoryBase.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAYwIIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:26:28.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Pages\\Account\\Login\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP\\Pages\\Account\\Login\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Pages\\Account\\Login\\Index.cshtml.cs",
+              "RelativeToolTip": "EMicroservices.IDP\\Pages\\Account\\Login\\Index.cshtml.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAowAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:41:55.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IdentityProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Extensions\\IdentityProfileService.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP\\Extensions\\IdentityProfileService.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Extensions\\IdentityProfileService.cs",
+              "RelativeToolTip": "EMicroservices.IDP\\Extensions\\IdentityProfileService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAzwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:41:31.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SeedUserData.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Persistence\\SeedUserData.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP\\Persistence\\SeedUserData.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Persistence\\SeedUserData.cs",
+              "RelativeToolTip": "EMicroservices.IDP\\Persistence\\SeedUserData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:43:12.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EntityNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Exceptions\\EntityNotFoundException.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\Exceptions\\EntityNotFoundException.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Exceptions\\EntityNotFoundException.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\Exceptions\\EntityNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:28:27.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Domains\\Repository\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "EMicroservices.IDP.Infrastructure\\Domains\\Repository\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP.Infrastructure\\Domains\\Repository\\IRepositoryBase.cs",
+              "RelativeToolTip": "EMicroservices.IDP.Infrastructure\\Domains\\Repository\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwCQAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T06:26:32.778Z",
               "EditorCaption": ""
             }
           ]

@@ -1,8 +1,9 @@
 ﻿using EMicroservice.IDP.Common;
-using EMicroservice.IDP.Entities;
+using EMicroservice.IDP.Infrastructure.Entities;
 using EMicroservice.IDP.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 
@@ -88,7 +89,7 @@ namespace EMicroservice.IDP.Extensions
               opt.ConfigureDbContext = c => c.UseSqlServer(connectionStrings, builder => builder.MigrationsAssembly("EMicroservice.IDP"));
           })
           .AddAspNetIdentity<User>().AddProfileService<IdentityProfileService>();
-          ;
+            ;
         }
         public static void ConfigureIdentity(this IServiceCollection services, IConfiguration configuration)
         {
@@ -117,6 +118,26 @@ namespace EMicroservice.IDP.Extensions
                 {
                     options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyHeader());
                 });
+        }
+        public static void ConfigureSwagger(this IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen(s =>
+            {
+                s.EnableAnnotations();
+                s.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Identity Server APi",
+                    Version = "v1",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "identity Services",
+                        Email = "tanphu.dev@gmail.com",
+                        Url = new Uri("http://localhost:3000")
+                    }
+
+                });
+            });
         }
     }
 }

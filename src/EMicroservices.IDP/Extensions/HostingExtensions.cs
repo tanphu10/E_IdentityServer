@@ -1,8 +1,12 @@
 using EMicroservice.IDP.Common.Domains;
 using EMicroservice.IDP.Common.Domains.Repository;
 using EMicroservice.IDP.Common.Repositories;
+using EMicroservice.IDP.Infrastructure.Common.Repositories;
+using EMicroservice.IDP.Infrastructure.Domains;
+using EMicroservice.IDP.Infrastructure.Domains.Repository;
 using EMicroservice.IDP.Services;
 using EMicroservice.IDP.Services.EmailService;
+using EMicroservices.IDP.Presentation;
 using Serilog;
 
 namespace EMicroservice.IDP.Extensions;
@@ -24,8 +28,13 @@ internal static class HostingExtensions
         builder.Services.AddTransient(typeof(IRepositoryBase<,>), typeof(RepositoryBase<,>));
         builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
         builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
+        builder.Services.AddControllers(config =>
+        {
+            config.RespectBrowserAcceptHeader = true;
+            config.ReturnHttpNotAcceptable = true;
+        }).AddApplicationPart(typeof(AssemblyReference).Assembly);
 
-
+        builder.Services.ConfigureSwagger(builder.Configuration);
         return builder.Build();
     }
 
@@ -44,7 +53,8 @@ internal static class HostingExtensions
         app.UseRouting();
         app.UseCookiePolicy();
         app.UseIdentityServer();
-
+        app.UseSwagger();
+        app.UseSwaggerUI(x => x.SwaggerEndpoint("/swagger/v1/swagger.json", "IdentityApi"));
         // uncomment if you want to add a UI
         app.UseAuthorization();
         app.UseEndpoints(endpoints =>

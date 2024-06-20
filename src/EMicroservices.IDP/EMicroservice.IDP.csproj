@@ -29,5 +29,14 @@
 		<PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
 
 		<PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.6.2" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\EMicroservices.IDP.Infrastructure\EMicroservices.IDP.Infrastructure.csproj" />
+	  <ProjectReference Include="..\EMicroservices.IDP.Presentation\EMicroservices.IDP.Presentation.csproj" />
 	</ItemGroup>
 </Project>

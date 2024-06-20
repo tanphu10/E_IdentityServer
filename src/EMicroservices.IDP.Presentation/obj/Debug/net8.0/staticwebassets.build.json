@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eDMhOEHqLNOleD11aPNQz7+7Hi1vexUavhdy+odmHF4=",
+  "Source": "EMicroservices.IDP.Presentation",
+  "BasePath": "_content/EMicroservices.IDP.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -3,6 +3,8 @@ using Duende.IdentityServer.Models;
 using Duende.IdentityServer.Services;
 using EMicroservice.IDP.Common;
 using EMicroservice.IDP.Entities;
+using EMicroservice.IDP.Infrastructure.Common;
+using EMicroservice.IDP.Infrastructure.Entities;
 using Microsoft.AspNetCore.Identity;
 using System.Security.Claims;
 

@@ -1,5 +1,5 @@
-﻿using EMicroservice.IDP.Common;
-using EMicroservice.IDP.Entities;
+﻿using EMicroservice.IDP.Infrastructure.Common;
+using EMicroservice.IDP.Infrastructure.Entities;
 using IdentityModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
