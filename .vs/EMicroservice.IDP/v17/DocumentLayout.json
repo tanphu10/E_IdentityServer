@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:src\\emicroservices.idp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:src\\emicroservices.idp\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\common\\repositories\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:src\\emicroservices.idp\\common\\repositories\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\common\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:src\\emicroservices.idp\\common\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|c:\\users\\t14\\desktop\\asp-microservice\\emicroservice.idp\\src\\emicroservices.idp\\common\\repositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90647F3D-04C3-4ABE-8F7D-309CE5404DB3}|src\\EMicroservices.IDP\\EMicroservice.IDP.csproj|solutionrelative:src\\emicroservices.idp\\common\\repositories\\ipermissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Program.cs",
+              "RelativeDocumentMoniker": "src\\EMicroservices.IDP\\Program.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Program.cs",
+              "RelativeToolTip": "src\\EMicroservices.IDP\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAkwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:41:42.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\PermissionRepository.cs",
+              "RelativeDocumentMoniker": "src\\EMicroservices.IDP\\Common\\Repositories\\PermissionRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\PermissionRepository.cs",
+              "RelativeToolTip": "src\\EMicroservices.IDP\\Common\\Repositories\\PermissionRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:39:36.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "src\\EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
+              "RelativeToolTip": "src\\EMicroservices.IDP\\Common\\Repositories\\RepositoryManager.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:36:58.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HostingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Extensions\\HostingExtensions.cs",
+              "RelativeDocumentMoniker": "src\\EMicroservices.IDP\\Extensions\\HostingExtensions.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Extensions\\HostingExtensions.cs",
+              "RelativeToolTip": "src\\EMicroservices.IDP\\Extensions\\HostingExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:37:23.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPermissionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\IPermissionRepository.cs",
+              "RelativeDocumentMoniker": "src\\EMicroservices.IDP\\Common\\Repositories\\IPermissionRepository.cs",
+              "ToolTip": "C:\\Users\\T14\\Desktop\\Asp-microservice\\EMicroservice.IDP\\src\\EMicroservices.IDP\\Common\\Repositories\\IPermissionRepository.cs",
+              "RelativeToolTip": "src\\EMicroservices.IDP\\Common\\Repositories\\IPermissionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T04:37:51.078Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
