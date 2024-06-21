@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace EMicroservice.IDP.Pages.Create;
+namespace EMicroservices.IDP.Pages.Create;
 
 [SecurityHeaders]
 [AllowAnonymous]

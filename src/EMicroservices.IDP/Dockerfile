@@ -8,17 +8,17 @@ EXPOSE 8080
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["EMicroservice.IDP.csproj", "."]
-RUN dotnet restore "./EMicroservice.IDP.csproj"
+COPY ["EMicroservices.IDP.csproj", "."]
+RUN dotnet restore "./EMicroservices.IDP.csproj"
 COPY . .
 WORKDIR "/src/."
-RUN dotnet build "./EMicroservice.IDP.csproj" -c $BUILD_CONFIGURATION -o /app/build
+RUN dotnet build "./EMicroservices.IDP.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./EMicroservice.IDP.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./EMicroservices.IDP.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "EMicroservice.IDP.dll"]
+ENTRYPOINT ["dotnet", "EMicroservices.IDP.dll"]

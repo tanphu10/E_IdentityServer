@@ -1,9 +1,9 @@
-﻿using EMicroservice.IDP.Infrastructure.Common.Repositories;
-using EMicroservice.IDP.Infrastructure.Entities;
+﻿using EMicroservices.IDP.Infrastructure.Common.Repositories;
+using EMicroservices.IDP.Infrastructure.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace EMicroservice.IDP.Common.Repositories
+namespace EMicroservices.IDP.Common.Repositories
 {
     public interface IRepositoryManager
     {

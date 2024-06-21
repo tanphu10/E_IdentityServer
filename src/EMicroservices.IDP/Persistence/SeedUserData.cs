@@ -1,11 +1,11 @@
-﻿using EMicroservice.IDP.Infrastructure.Common;
-using EMicroservice.IDP.Infrastructure.Entities;
+﻿using EMicroservices.IDP.Infrastructure.Common;
+using EMicroservices.IDP.Infrastructure.Entities;
 using IdentityModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 
-namespace EMicroservice.IDP.Persistence
+namespace EMicroservices.IDP.Persistence
 {
     public class SeedUserData
     {

@@ -1,9 +1,9 @@
-﻿using EMicroservice.IDP.Infrastructure.Common;
-using EMicroservice.IDP.Infrastructure.Entities;
+﻿using EMicroservices.IDP.Infrastructure.Common;
+using EMicroservices.IDP.Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace EMicroservice.IDP.Entities.Configuration
+namespace EMicroservices.IDP.Entities.Configuration
 {
     public class PermissionConfiguration:IEntityTypeConfiguration<Permission>
     {

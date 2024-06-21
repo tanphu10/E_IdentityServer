@@ -1,4 +1,4 @@
-﻿namespace EMicroservice.IDP.Common
+﻿namespace EMicroservices.IDP.Common
 {
     public class SMTPEmailSetting
     {

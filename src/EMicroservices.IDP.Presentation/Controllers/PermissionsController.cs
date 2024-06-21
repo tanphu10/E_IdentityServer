@@ -1,5 +1,6 @@
-﻿using EMicroservice.IDP.Common.Repositories;
+﻿using EMicroservices.IDP.Common.Repositories;
 using EMicroservices.IDP.Infrastructure.ViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
@@ -9,6 +10,7 @@ namespace EMicroservices.IDP.Presentation.Controllers
 {
     [Route("api/[controller]/roles/{roleId}")]
     [ApiController]
+    [Authorize("Bearer")]
     public class PermissionsController : ControllerBase
     {
         private readonly IRepositoryManager _repository;

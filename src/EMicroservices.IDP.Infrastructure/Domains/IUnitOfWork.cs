@@ -1,4 +1,4 @@
-﻿namespace EMicroservice.IDP.Infrastructure.Domains
+﻿namespace EMicroservices.IDP.Infrastructure.Domains
 {
     public interface IUnitOfWork : IDisposable
     {

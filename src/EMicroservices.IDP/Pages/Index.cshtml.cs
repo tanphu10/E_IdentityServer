@@ -6,7 +6,7 @@ using System.Reflection;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace EMicroservice.IDP.Pages.Home;
+namespace EMicroservices.IDP.Pages.Home;
 
 [AllowAnonymous]
 public class Index : PageModel

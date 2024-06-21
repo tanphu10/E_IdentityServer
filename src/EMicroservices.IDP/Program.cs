@@ -1,5 +1,5 @@
-﻿using EMicroservice.IDP.Extensions;
-using EMicroservice.IDP.Persistence;
+﻿using EMicroservices.IDP.Extensions;
+using EMicroservices.IDP.Persistence;
 using Serilog;
 
 Log.Logger = new LoggerConfiguration()

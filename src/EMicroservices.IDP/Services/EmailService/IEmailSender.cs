@@ -1,4 +1,4 @@
-﻿namespace EMicroservice.IDP.Services.EmailService
+﻿namespace EMicroservices.IDP.Services.EmailService
 {
     public interface IEmailSender
     {

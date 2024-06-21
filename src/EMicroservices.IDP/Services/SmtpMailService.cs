@@ -1,9 +1,9 @@
-﻿using EMicroservice.IDP.Common;
-using EMicroservice.IDP.Services.EmailService;
+﻿using EMicroservices.IDP.Common;
+using EMicroservices.IDP.Services.EmailService;
 using System.Net;
 using System.Net.Mail;
 
-namespace EMicroservice.IDP.Services
+namespace EMicroservices.IDP.Services
 {
     public class SmtpMailService : IEmailSender
     {

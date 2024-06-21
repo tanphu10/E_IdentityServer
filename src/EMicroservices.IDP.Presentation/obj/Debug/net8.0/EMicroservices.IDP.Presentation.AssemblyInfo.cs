@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EMicroservices.IDP.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a9000ecae0f1bdad4e0ddb12cefd6eb86f43a26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b2e9a67cb8fa378bccf178c3517c844caf82e19")]
 [assembly: System.Reflection.AssemblyProductAttribute("EMicroservices.IDP.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EMicroservices.IDP.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,19 +1,26 @@
 ﻿using Dapper;
-using EMicroservice.IDP.Common.Domains.Repository;
-using EMicroservice.IDP.Infrastructure.Common.Repositories;
-using EMicroservice.IDP.Infrastructure.Domains;
-using EMicroservice.IDP.Infrastructure.Entities;
-using EMicroservice.IDP.Persistence;
+using EMicroservices.IDP.Common.Domains.Repository;
+using EMicroservices.IDP.Infrastructure.Common.Repositories;
+using EMicroservices.IDP.Infrastructure.Domains;
+using EMicroservices.IDP.Infrastructure.Entities;
+using EMicroservices.IDP.Persistence;
 using EMicroservices.IDP.Infrastructure.ViewModel;
 using System.Data;
+using Microsoft.AspNetCore.Identity;
+using AutoMapper;
+using System.Collections;
 
-namespace EMicroservice.IDP.Common.Repositories
+namespace EMicroservices.IDP.Common.Repositories
 {
     public class PermissionRepository : RepositoryBase<Permission, long>, IPermissionRepository
     {
+        private readonly UserManager<User> _userManager;
+        private readonly IMapper _mapper;
 
-        public PermissionRepository(IdentityContext dbContext, IUnitOfWork unitOfWork) : base(dbContext, unitOfWork)
+        public PermissionRepository(IdentityContext dbContext, IUnitOfWork unitOfWork,UserManager<User> userManager,IMapper mapper) : base(dbContext, unitOfWork)
         {
+            _userManager = userManager;
+            _mapper = mapper;
         }
 
         public async Task<PermissionViewModel?> CreatePermission(string roleId, PermissionAddModel model)
@@ -54,6 +61,14 @@ namespace EMicroservice.IDP.Common.Repositories
             var result = await QueryAsync<PermissionViewModel>("Get_Permission_ByRoleId", parameters);
             return result;
 
+        }
+
+        public async Task<IEnumerable<PermissionViewModel>> GetPerrmissionByUser(User user)
+        {
+            var currentUserRoles = await _userManager.GetRolesAsync(user);
+            var query = FindAll().Where(x => currentUserRoles.Contains(x.RoleId)).Select(x => new Permission(x.Function, x.Command, x.RoleId));
+            var result = _mapper.Map<IEnumerable<PermissionViewModel>>(query);
+            return result;
         }
 
         public Task UpdatePermissionsByRoleId(string roleId, IEnumerable<PermissionAddModel> permissionCollection)

@@ -2,7 +2,7 @@
 using Duende.IdentityServer.EntityFramework.Mappers;
 using Microsoft.EntityFrameworkCore;
 
-namespace EMicroservice.IDP.Persistence
+namespace EMicroservices.IDP.Persistence
 {
     public static class IdentitySeed
     {

@@ -2,7 +2,7 @@
 using Duende.IdentityServer.Models;
 using Microsoft.AspNetCore.Identity;
 
-namespace EMicroservice.IDP;
+namespace EMicroservices.IDP;
 
 public static class Config
 {
@@ -14,10 +14,10 @@ public static class Config
             new IdentityResources.Email(),
             new IdentityResource
             {
-                Name="role",
+                Name="roles",
                 UserClaims=new List<string>
                 {
-                    "role"
+                    "roles"
                 }
             }
         };
@@ -28,10 +28,7 @@ public static class Config
 
                 new ApiScope("microservice_api.read","Microservices API Read Scope"),
                 new ApiScope("microservice_api.write","Microservices API Write Scope"),
-
-
-
-            };
+             };
     public static IEnumerable<ApiResource> ApiResources =>
         new ApiResource[]
         {
@@ -41,7 +38,7 @@ public static class Config
             {
                 "microservice_api.read","microservice_api.write"
             },
-            UserClaims=new List<string >{"role"}
+            UserClaims=new List<string >{"roles"}
         }
 
         };
@@ -59,22 +56,26 @@ public static class Config
                           AccessTokenLifetime=60*60*1,
                           RedirectUris=new List<String>()
                           {
-                              "http://localhost:5001/swagger/oauth2-redireact.html"
+                              "http://localhost:5001/swagger/oauth2-redirect.html",
+                              "http://localhost:5002/swagger/oauth2-redirect.html"
                           },
                           PostLogoutRedirectUris=new List<String>()
                           {
-                              "http://localhost:5001/swagger/oauth2-redireact.html"
+                              "http://localhost:5001/swagger/oauth2-redirect.html",
+                              "http://localhost:5002/swagger/oauth2-redirect.html",
+
                           },
                           AllowedCorsOrigins=new List<string>()
                           {
-                              "http://localhost:5001"
+                              "http://localhost:5001",
+                              "http://localhost:5002",
                           },
                             AllowedScopes =
                             {
                                 IdentityServerConstants.StandardScopes.OpenId,
                                 IdentityServerConstants.StandardScopes.Profile,
                                 IdentityServerConstants.StandardScopes.Email,
-                                "role",
+                                "roles",
                                 "microservice_api.read",
                                 "microservice_api.write"
                          }
@@ -105,7 +106,7 @@ public static class Config
                                 IdentityServerConstants.StandardScopes.OpenId,
                                 IdentityServerConstants.StandardScopes.Profile,
                                 IdentityServerConstants.StandardScopes.Email,
-                                "role",
+                                "roles",
                                 "microservice_api.read",
                                 "microservice_api.write"
                             }

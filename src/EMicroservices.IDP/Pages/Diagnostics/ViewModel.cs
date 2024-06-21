@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Authentication;
 using System.Text;
 using System.Text.Json;
 
-namespace EMicroservice.IDP.Pages.Diagnostics;
+namespace EMicroservices.IDP.Pages.Diagnostics;
 
 public class ViewModel
 {

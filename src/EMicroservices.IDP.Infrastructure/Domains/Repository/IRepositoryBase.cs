@@ -1,9 +1,9 @@
-﻿using EMicroservice.IDP.Infrastructure.Domains;
+﻿using EMicroservices.IDP.Infrastructure.Domains;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Data;
 using System.Linq.Expressions;
 
-namespace EMicroservice.IDP.Infrastructure.Domains.Repository
+namespace EMicroservices.IDP.Infrastructure.Domains.Repository
 {
     public interface IRepositoryBase<T, K> where T : EntityBase<K>
     {

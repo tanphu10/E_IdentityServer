@@ -1,9 +1,9 @@
-﻿using EMicroservice.IDP.Infrastructure.Entities;
+﻿using EMicroservices.IDP.Infrastructure.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
 
-namespace EMicroservice.IDP.Persistence
+namespace EMicroservices.IDP.Persistence
 {
     public class IdentityContext:IdentityDbContext<User>
     {
@@ -12,7 +12,7 @@ namespace EMicroservice.IDP.Persistence
         {
 
         }
-        public DbSet<Permission> Permissions { get; set; }
+        //public DbSet<Permission> Permissions { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             //builder.ApplyConfiguration(new RoleConfiguration());

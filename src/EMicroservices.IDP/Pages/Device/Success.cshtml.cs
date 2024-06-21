@@ -4,7 +4,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace EMicroservice.IDP.Pages.Device;
+namespace EMicroservices.IDP.Pages.Device;
 
 [SecurityHeaders]
 [Authorize]

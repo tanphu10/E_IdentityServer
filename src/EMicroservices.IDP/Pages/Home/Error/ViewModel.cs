@@ -3,7 +3,7 @@
 
 using Duende.IdentityServer.Models;
 
-namespace EMicroservice.IDP.Pages.Error;
+namespace EMicroservices.IDP.Pages.Error;
 
 public class ViewModel
 {

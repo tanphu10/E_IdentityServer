@@ -1,7 +1,7 @@
 // Copyright (c) Duende Software. All rights reserved.
 // See LICENSE in the project root for license information.
 
-namespace EMicroservice.IDP.Pages.Login;
+namespace EMicroservices.IDP.Pages.Login;
 
 public static class LoginOptions
 {

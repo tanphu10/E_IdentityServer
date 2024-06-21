@@ -3,7 +3,7 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace EMicroservice.IDP.Pages.Create;
+namespace EMicroservices.IDP.Pages.Create;
 
 public class InputModel
 {

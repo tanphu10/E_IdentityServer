@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Microsoft.EntityFrameworkCore;
-using EMicroservice.IDP.Infrastructure.Common;
+using EMicroservices.IDP.Infrastructure.Common;
 
-namespace EMicroservice.IDP.Infrastructure.Entities
+namespace EMicroservices.IDP.Infrastructure.Entities
 {
 
     // cấu hihf vào database dạng table Identity.Role

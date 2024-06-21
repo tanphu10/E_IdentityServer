@@ -1,13 +1,13 @@
-﻿using EMicroservice.IDP.Common;
-using EMicroservice.IDP.Infrastructure.Entities;
-using EMicroservice.IDP.Persistence;
+﻿using EMicroservices.IDP.Common;
+using EMicroservices.IDP.Infrastructure.Entities;
+using EMicroservices.IDP.Persistence;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 
-namespace EMicroservice.IDP.Extensions
+namespace EMicroservices.IDP.Extensions
 {
     public static class ServiceExtensions
     {
@@ -82,11 +82,11 @@ namespace EMicroservice.IDP.Extensions
           //.AddTestUsers(TestUsers.Users)
           .AddConfigurationStore(opt =>
           {
-              opt.ConfigureDbContext = c => c.UseSqlServer(connectionStrings, builder => builder.MigrationsAssembly("EMicroservice.IDP"));
+              opt.ConfigureDbContext = c => c.UseSqlServer(connectionStrings, builder => builder.MigrationsAssembly("EMicroservices.IDP"));
           })
           .AddOperationalStore(opt =>
           {
-              opt.ConfigureDbContext = c => c.UseSqlServer(connectionStrings, builder => builder.MigrationsAssembly("EMicroservice.IDP"));
+              opt.ConfigureDbContext = c => c.UseSqlServer(connectionStrings, builder => builder.MigrationsAssembly("EMicroservices.IDP"));
           })
           .AddAspNetIdentity<User>().AddProfileService<IdentityProfileService>();
             ;
@@ -109,6 +109,7 @@ namespace EMicroservice.IDP.Extensions
                     opt.Lockout.MaxFailedAccessAttempts = 3;
                 })
                 .AddEntityFrameworkStores<IdentityContext>()
+                .AddUserStore<IdUserStore>()
                 .AddDefaultTokenProviders();
         }
         public static void ConfigureCors(this IServiceCollection services)
@@ -135,6 +136,56 @@ namespace EMicroservice.IDP.Extensions
                         Email = "tanphu.dev@gmail.com",
                         Url = new Uri("http://localhost:3000")
                     }
+
+                });
+                var identityServerBaseUrl = configuration.GetSection("IdentityServer:BaseUrl").Value;
+                s.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Type = SecuritySchemeType.OAuth2,
+                    Flows = new OpenApiOAuthFlows
+                    {
+                        Implicit = new OpenApiOAuthFlow
+                        {
+                            AuthorizationUrl = new Uri($"{identityServerBaseUrl}/connect/authorize"),
+                            Scopes = new Dictionary<string, string>
+                            {
+                                {"microservice_api.read","Microservices API Read Scope" },
+                                {"microservice_api.write","Microservices API Write Scope" }
+                            }
+                        }
+                    }
+                });
+                s.AddSecurityRequirement(new OpenApiSecurityRequirement
+                {
+                    {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference=new OpenApiReference{Type=ReferenceType.SecurityScheme,Id="Bearer"}
+                        },
+                        new List<string>
+                        {
+                            "microservice_api.read",
+                            "microservice_api.write"
+                        }
+                    }
+                });
+            });
+        }
+        public static void ConfigureAuthentication(this IServiceCollection services)
+        {
+            services.AddAuthentication().AddLocalApi("Bearer", opt =>
+            {
+                opt.ExpectedScope = "microservice_api.read";
+            });
+        }
+        public static void ConfigureAuthorization(this IServiceCollection services)
+        {
+            services.AddAuthorization(opt =>
+            {
+                opt.AddPolicy("Bearer", policy =>
+                {
+                    policy.AddAuthenticationSchemes("Bearer");
+                    policy.RequireAuthenticatedUser();
 
                 });
             });

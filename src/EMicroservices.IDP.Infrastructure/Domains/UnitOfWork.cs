@@ -1,6 +1,6 @@
-﻿using EMicroservice.IDP.Persistence;
+﻿using EMicroservices.IDP.Persistence;
 
-namespace EMicroservice.IDP.Infrastructure.Domains
+namespace EMicroservices.IDP.Infrastructure.Domains
 {
     public class UnitOfWork : IUnitOfWork
     {

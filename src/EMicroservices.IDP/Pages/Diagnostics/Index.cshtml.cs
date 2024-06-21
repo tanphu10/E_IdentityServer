@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Authorization;
 
-namespace EMicroservice.IDP.Pages.Diagnostics;
+namespace EMicroservices.IDP.Pages.Diagnostics;
 
 [SecurityHeaders]
 [Authorize]

@@ -1,7 +1,7 @@
 // Copyright (c) Duende Software. All rights reserved.
 // See LICENSE in the project root for license information.
 
-namespace EMicroservice.IDP.Pages.Device;
+namespace EMicroservices.IDP.Pages.Device;
 
 public static class DeviceOptions
 {

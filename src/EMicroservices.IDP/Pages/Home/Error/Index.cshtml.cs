@@ -5,7 +5,7 @@ using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace EMicroservice.IDP.Pages.Error;
+namespace EMicroservices.IDP.Pages.Error;
 
 [AllowAnonymous]
 [SecurityHeaders]

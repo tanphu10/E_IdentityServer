@@ -1,14 +1,14 @@
 ﻿using Dapper;
-using EMicroservice.IDP.Infrastructure.Domains;
-using EMicroservice.IDP.Infrastructure.Domains.Repository;
-using EMicroservice.IDP.Persistence;
+using EMicroservices.IDP.Infrastructure.Domains;
+using EMicroservices.IDP.Infrastructure.Domains.Repository;
+using EMicroservices.IDP.Persistence;
 using EMicroservices.IDP.Infrastructure.Exceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Data;
 using System.Linq.Expressions;
 
-namespace EMicroservice.IDP.Common.Domains.Repository
+namespace EMicroservices.IDP.Common.Domains.Repository
 {
     public class RepositoryBase<T, K> : IRepositoryBase<T, K> where T : EntityBase<K>
     {
